@@ -8,7 +8,7 @@ export default function Layout({ children }) {
                 <title>Hugh O'Reilly</title>
             </Head>
             <main className={""}>
-                <div className={"sm:w-9/12 mx-auto max-w-7xl"}>
+                <div className={"w-11/12 sm:w-9/12 mx-auto max-w-7xl"}>
                     {children}
                 </div>
             </main>
