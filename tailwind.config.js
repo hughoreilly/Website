@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "hugh-black": "#212121"
+        "hugh-black": "#212121",
+        "hugh-grey": "#757575"
       },
     },
   },
