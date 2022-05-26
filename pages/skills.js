@@ -9,7 +9,7 @@ export default function Skills() {
                 Skills
             </h1>
 
-            <div className={"flex-col border-2 p-2 content-center"}>
+            <div className={"flex-col mx-auto p-2 w-9/12"}>
                 <p className={"font-bold"}>
                     Front-end web development
                 </p>
@@ -57,7 +57,7 @@ export default function Skills() {
                 </div>
             </div>
 
-            <div className={"flex-col border-2 p-2 content-center"}>
+            <div className={"flex-col p-2 w-9/12 mx-auto"}>
                 <p className={"font-bold"}>
                     Back-end web development
                 </p>
