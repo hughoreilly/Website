@@ -7,7 +7,7 @@ export default function Skills() {
     return (
         <section>
 
-            <div className={"mx-auto max-w-3xl "}>
+            <div className={"mx-auto max-w-5xl mb-5"}>
 
                 <h1 className={"text-blue-400 "}>
                     Skills
@@ -20,7 +20,7 @@ export default function Skills() {
                 <p className={"mx-4 mt-2 mb-2 text-blue-400 "}>Front End</p>
                 <hr></hr>
 
-                <div className={"grid grid-cols-3 justify-center"}>
+                <div className={"grid md:grid-cols-3 grid-cols-2 justify-center"}>
 
                     <div className={"flex my-4 items-center "}>
                         <svg viewBox="0 0 452 520" width={"20"} className={"mx-4"}>
@@ -129,7 +129,7 @@ export default function Skills() {
                 <p className={"mx-4 mt-4 mb-2 text-blue-400 "}>Back End</p>
                 <hr></hr>
 
-                <div className={"grid grid-cols-3"}>
+                <div className={"grid md:grid-cols-3 grid-cols-2 justify-center"}>
                     <div className={"flex my-4 items-center"}>
                         <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 61 81" fill="#fff" fillRule="evenodd" stroke="#000" strokeLinecap="round" width={"20"} strokeLinejoin="round" className={"mx-4"}>
                             <title>SQL Logo</title>
@@ -218,13 +218,94 @@ export default function Skills() {
                         </ul>
                     </div>
                 </div>
+
                 <h2 className={"text-center text-hugh-grey pt-4 font-bold"}>
                     Soft Skills
                 </h2>
 
+                <p className={"mx-4 mt-2 mb-2 text-blue-400 "}>Buisness</p>
+                <hr></hr>
+
+                <div className={"grid md:grid-cols-3 grid-cols-2 justify-center"}>
+                    <div className={"flex my-4 items-center"}>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="20" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet" className={"mx-4"}>
+                        <title>Agile Logo</title>
+                            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                                <path d="M1666 4290 c-242 -202 -441 -371 -443 -377 -2 -6 197 -178 442 -382 l445 -371 0 215 0 215 24 0 c13 0 63 -11 110 -25 682 -198 979 -982 596 -1573 -145 -224 -357 -375 -640 -455 -74 -21 -87 -22 -1137 -25 l-1063 -3 0 -300 0 -300 1083 4 c1167 4 1113 2 1315 57 555 152 1000 597 1152 1151 183 668 -71 1382 -635 1784 -205 146 -470 252 -714 285 l-91 13 -2 226 -3 227 -439 -366z"/>
+                                <path d="M790 3718 c-238 -239 -394 -541 -458 -883 -26 -141 -22 -438 7 -575 25 -121 74 -273 121 -377 l33 -73 364 0 364 0 -65 79 c-273 336 -322 768 -129 1143 65 127 140 221 257 325 33 29 58 54 55 56 -12 10 -436 362 -450 374 -15 12 -26 5 -99 -69z"/>
+                                <path d="M4210 1736 l0 -226 -305 0 -304 0 -32 -47 c-130 -190 -290 -352 -493 -497 l-78 -56 606 0 606 0 2 -223 3 -223 444 366 c245 201 446 371 448 377 2 6 -184 166 -414 355 -230 190 -433 357 -450 372 l-33 28 0 -226z"/>
+                            </g>
+                        </svg>
+                        <ul>
+                            <li>
+                                Agile Development
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className={"flex my-4 items-center"}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width={20} viewBox="0 0 192.756 192.756" className={"mx-4"}>
+                            <title>Domain Driven Design Logo</title>
+                            <path fillRule="evenodd" clipRule="evenodd" fill="#fff" d="M0 0h192.756v192.756H0V0z"/>
+                            <path d="M129.244 68.568v55.619h55.621V68.568h-55.621zm-60.676 0v55.619h55.62V68.568h-55.62zm-60.676 55.62h55.62v-55.62H7.892v55.62zm58.148 5.056H2.834V63.512h187.085v65.732H66.04z" />
+                            <path d="M31.493 84.053c3.615 0 6.204.887 7.766 2.658 1.561 1.772 2.343 5.058 2.343 9.858 0 3.628-.351 6.249-1.049 7.866s-1.664 2.752-2.896 3.4c-1.233.648-3.307.973-6.224.973h-3.42V84.053h3.48zm-17.492 35.08H34.76c2.487 0 5.264-.412 8.328-1.236 2.24-.596 4.338-1.797 6.291-3.598 1.954-1.803 3.481-4.039 4.581-6.707 1.099-2.666 1.65-6.42 1.65-11.264 0-3.089-.37-6.014-1.111-8.774-.74-2.761-1.933-5.182-3.579-7.262-1.646-2.081-3.728-3.676-6.246-4.789-2.519-1.113-5.824-1.668-9.915-1.668H14.001v45.298zm81.961-35.08c3.614 0 6.204.887 7.765 2.658 1.561 1.772 2.344 5.058 2.344 9.858 0 3.628-.352 6.249-1.049 7.866s-1.664 2.752-2.896 3.4-3.307.973-6.224.973h-3.42V84.053h3.48zm-17.492 35.08h20.758c2.488 0 5.264-.412 8.328-1.236 2.24-.596 4.338-1.797 6.291-3.598 1.955-1.803 3.482-4.039 4.582-6.707 1.1-2.666 1.65-6.42 1.65-11.264 0-3.089-.369-6.014-1.111-8.774-.74-2.761-1.932-5.182-3.578-7.262-1.646-2.081-3.729-3.676-6.246-4.789s-5.824-1.668-9.916-1.668H78.47v45.298zm74.376-35.08c3.615 0 6.205.887 7.766 2.658 1.561 1.772 2.344 5.058 2.344 9.858 0 3.628-.352 6.249-1.049 7.866-.699 1.617-1.664 2.752-2.898 3.4-1.232.648-3.307.973-6.223.973h-3.42V84.053h3.48zm-17.492 35.08h20.76c2.486 0 5.264-.412 8.328-1.236 2.24-.596 4.338-1.797 6.291-3.598 1.953-1.803 3.482-4.039 4.582-6.707 1.098-2.666 1.65-6.42 1.65-11.264 0-3.089-.371-6.014-1.111-8.774-.74-2.761-1.932-5.182-3.578-7.262-1.646-2.081-3.729-3.676-6.246-4.789-2.52-1.113-5.824-1.668-9.916-1.668h-20.76v45.298z" fillRule="evenodd" clipRule="evenodd"/>
+                        </svg>
+                        <ul>
+                            <li>
+                                Domain Driven Design
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className={"flex my-4 items-center"}>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width={"20"} viewBox="0 0 600 600" xmlSpace="preserve" className={"mx-4"}>
+                            <path fill="#010101" d="M312.1 499.3c-38.2 0-74.5-5.9-108.9-17.8-34.4-11.9-64.8-29.7-91.2-53.4l65.9-78.9c42.7 34.2 88.9 51.2 138.5 51.2 15.9 0 28-2.5 36.3-7.6 8.3-5.1 12.5-12.3 12.5-21.6V370c0-4.5-1-8.4-3-11.9s-5.8-6.8-11.3-10c-5.5-3.2-12.8-6.4-22-9.4-9.1-3-21-6.2-35.7-9.4-22.8-5.3-43.9-11.1-63.4-17.3-19.5-6.3-36.5-14.4-50.9-24.4-14.4-9.9-25.8-22.3-34.2-37.1-8.3-14.8-12.5-33.2-12.5-55.1v-1.2c0-19.9 3.8-38.2 11.3-54.8 7.5-16.6 18.5-31.1 32.9-43.2 14.4-12.2 31.8-21.6 52.2-28.3 20.3-6.7 43.3-10 68.9-10 36.6 0 69.2 4.8 97.9 14.4S450 96.1 473.2 115L414 198.6c-19.5-13.8-39.6-24.3-60.1-31.4-20.5-7.1-40.4-10.7-59.5-10.7-14.2 0-24.9 2.6-32 7.9-7.1 5.3-10.7 11.8-10.7 19.5v1.2c0 4.9 1.1 9.1 3.4 12.8 2.2 3.7 6.1 7 11.6 10.1 5.5 3.1 13 6.1 22.6 9.1 9.5 3 21.7 6.2 36.3 9.4 24.4 5.3 46.5 11.5 66.2 18.6 19.7 7.1 36.5 15.7 50.3 25.9 13.8 10.2 24.4 22.4 31.7 36.8 7.3 14.4 11 31.6 11 51.4v1.2c0 21.9-4.2 41.4-12.5 58.5s-20 31.6-35.1 43.5c-15 12-33.1 21.1-54.3 27.4-21.2 6.4-44.8 9.5-70.8 9.5z"/>
+                        </svg>
+                        <ul>
+                            <li>
+                                S.O.L.I.D Principles
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
                 <p className={"mx-4 mt-2 mb-2 text-blue-400 "}>Teamwork</p>
                 <hr></hr>
+
+                <div className={"grid md:grid-cols-3 grid-cols-2 justify-center"}>
+                    <div className={"flex my-4 items-center"}>
+                        <span className={"mx-4"}>🗣️</span>
+                        <ul>
+                            <li>
+                                Communication
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className={"flex my-4 items-center"}>
+                        <span className={"mx-4"}>🤝</span>
+                        <ul>
+                            <li>
+                                Empathy
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className={"flex my-4 items-center"}>
+                        <span className={"mx-4"}>⏳</span>
+                        <ul>
+                            <li>
+                                Patience
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
+
+
+
         </section>
     )
 }
