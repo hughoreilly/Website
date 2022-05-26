@@ -1,22 +1,23 @@
 import Layout from '../components/layout'
 import Navbar from '../components/navbar'
 import Main from "../components/Main";
+import Footer from '../components/footer'
 
 export default function Skills() {
     return (
         <section>
 
-            <div className={"mx-auto max-w-3xl"}>
+            <div className={"mx-auto max-w-3xl "}>
 
-                <h1>
+                <h1 className={"text-blue-400 "}>
                     Skills
                 </h1>
 
-                <h2 className={"text-center"}>
+                <h2 className={"text-center text-hugh-grey pt-4 font-bold"}>
                     Web Development
                 </h2>
 
-                <p className={"mx-4 mt-4 mb-2"}>Front End</p>
+                <p className={"mx-4 mt-2 mb-2 text-blue-400 "}>Front End</p>
                 <hr></hr>
 
                 <div className={"grid grid-cols-3 justify-center"}>
@@ -125,8 +126,7 @@ export default function Skills() {
 
                 </div>
 
-
-                <p className={"mx-4 mt-4 mb-2"}>Back End</p>
+                <p className={"mx-4 mt-4 mb-2 text-blue-400 "}>Back End</p>
                 <hr></hr>
 
                 <div className={"grid grid-cols-3"}>
@@ -218,6 +218,12 @@ export default function Skills() {
                         </ul>
                     </div>
                 </div>
+                <h2 className={"text-center text-hugh-grey pt-4 font-bold"}>
+                    Soft Skills
+                </h2>
+
+                <p className={"mx-4 mt-2 mb-2 text-blue-400 "}>Teamwork</p>
+                <hr></hr>
             </div>
         </section>
     )
@@ -230,6 +236,7 @@ Skills.getLayout = function getLayout(page) {
             <Main>
                 {page}
             </Main>
+            <Footer />
         </Layout>
     )
 }

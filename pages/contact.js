@@ -1,6 +1,7 @@
 import Layout from '../components/layout'
 import Navbar from '../components/navbar'
 import Main from "../components/Main";
+import Footer from '../components/footer'
 
 export default function Contact() {
     return (
@@ -25,6 +26,7 @@ Contact.getLayout = function getLayout(page) {
             <Main>
                 {page}
             </Main>
+            <Footer />
         </Layout>
     )
 }

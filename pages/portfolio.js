@@ -1,6 +1,7 @@
 import Layout from '../components/layout'
 import Navbar from '../components/navbar'
 import Main from "../components/Main";
+import Footer from '../components/footer'
 
 
 export default function Portfolio() {
@@ -26,6 +27,7 @@ Portfolio.getLayout = function getLayout(page) {
             <Main>
                 {page}
             </Main>
+            <Footer />
         </Layout>
     )
 }

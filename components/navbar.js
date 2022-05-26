@@ -10,7 +10,7 @@ export default function Navbar() {
         } else if (window.location.pathname === "/skills") {
             setActive('skills')
         } else if (window.location.pathname === "/portfolio") {
-            setActive('blog')
+            setActive('portfolio')
         } else if (window.location.pathname === "/contact") {
             setActive('contact')
         }
@@ -20,16 +20,16 @@ export default function Navbar() {
         <>
             <nav className="flex justify-between font-bold text-xl text-hugh-grey">
                 <Link href="/">
-                    <a className={"ease-in duration-100 hover:text-hugh-black " + ((active === 'about') ? "text-hugh-black" : "text-hugh-grey")} >About</a>
+                    <a className={"ease-in duration-100 hover:text-blue-400 " + ((active === 'about') ? "text-blue-400" : "text-hugh-grey")} >About</a>
                 </Link>
                 <Link href="/skills">
-                    <a className={"ease-in duration-100 hover:text-hugh-black " + ((active === 'skills') ? "text-hugh-black" : "text-hugh-grey")}>Skills</a>
+                    <a className={"ease-in duration-100 hover:text-blue-400 " + ((active === 'skills') ? "text-blue-400" : "text-hugh-grey")}>Skills</a>
                 </Link>
                 <Link href="/portfolio">
-                    <a className={"ease-in duration-100 hover:text-hugh-black " + ((active === 'portfolio') ? "text-hugh-black" : "text-hugh-grey")}>Portfolio</a>
+                    <a className={"ease-in duration-100 hover:text-blue-400 " + ((active === 'portfolio') ? "text-blue-400" : "text-hugh-grey")}>Portfolio</a>
                 </Link>
                 <Link href="/contact">
-                    <a className={"ease-in duration-100 hover:text-hugh-black " + ((active === 'contact') ? "text-hugh-black" : "text-hugh-grey")}>Contact</a>
+                    <a className={"ease-in duration-100 hover:text-blue-400 " + ((active === 'contact') ? "text-blue-400 " : "text-hugh-grey")}>Contact</a>
                 </Link>
             </nav>
             <hr></hr>
