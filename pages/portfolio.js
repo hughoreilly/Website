@@ -2,11 +2,12 @@ import Layout from '../components/layout'
 import Navbar from '../components/navbar'
 import Main from "../components/Main";
 
-export default function Contact() {
+
+export default function Portfolio() {
     return (
         <section>
                 <h1>
-                    Contact
+                    Portfolio
                 </h1>
 
             <div>
@@ -18,7 +19,7 @@ export default function Contact() {
     )
 }
 
-Contact.getLayout = function getLayout(page) {
+Portfolio.getLayout = function getLayout(page) {
     return (
         <Layout>
             <Navbar />

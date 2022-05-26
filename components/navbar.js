@@ -6,10 +6,10 @@ export default function Navbar() {
 
     useEffect(() => {
         if (window.location.pathname === "/") {
-            setActive('home')
-        } else if (window.location.pathname === "/about") {
             setActive('about')
-        } else if (window.location.pathname === "/blog") {
+        } else if (window.location.pathname === "/skills") {
+            setActive('skills')
+        } else if (window.location.pathname === "/portfolio") {
             setActive('blog')
         } else if (window.location.pathname === "/contact") {
             setActive('contact')
@@ -17,22 +17,22 @@ export default function Navbar() {
     })
 
     return (
-        <div className={"text-hugh-grey sm:w-9/12 mx-auto max-w-7xl"}>
-            <nav className="flex  font-bold text-xl justify-between">
+        <>
+            <nav className="flex justify-between font-bold text-xl text-hugh-grey">
                 <Link href="/">
-                    <a className={"ease-in duration-100 hover:text-hugh-black " + ((active === 'home') ? "text-hugh-black" : "text-hugh-grey")} >Home</a>
+                    <a className={"ease-in duration-100 hover:text-hugh-black " + ((active === 'about') ? "text-hugh-black" : "text-hugh-grey")} >About</a>
                 </Link>
-                <Link href="/about">
-                    <a className={"ease-in duration-100 hover:text-hugh-black " + ((active === 'about') ? "text-hugh-black" : "text-hugh-grey")}>About</a>
+                <Link href="/skills">
+                    <a className={"ease-in duration-100 hover:text-hugh-black " + ((active === 'skills') ? "text-hugh-black" : "text-hugh-grey")}>Skills</a>
                 </Link>
-                <Link href="/blog">
-                    <a className={"ease-in duration-100 hover:text-hugh-black " + ((active === 'blog') ? "text-hugh-black" : "text-hugh-grey")}>Blog</a>
+                <Link href="/portfolio">
+                    <a className={"ease-in duration-100 hover:text-hugh-black " + ((active === 'portfolio') ? "text-hugh-black" : "text-hugh-grey")}>Portfolio</a>
                 </Link>
                 <Link href="/contact">
                     <a className={"ease-in duration-100 hover:text-hugh-black " + ((active === 'contact') ? "text-hugh-black" : "text-hugh-grey")}>Contact</a>
                 </Link>
             </nav>
             <hr></hr>
-        </div>
+        </>
     )
 }

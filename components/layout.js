@@ -7,7 +7,11 @@ export default function Layout({ children }) {
                 <meta name="viewport" content="width=device-width, initial-scale=1.00"/>
                 <title>Hugh O'Reilly</title>
             </Head>
-            <main>{children}</main>
+            <main className={""}>
+                <div className={"sm:w-9/12 mx-auto max-w-7xl"}>
+                    {children}
+                </div>
+            </main>
         </>
     )
 }
