@@ -8,7 +8,7 @@ export default function Portfolio() {
     return (
         <section>
                 <h1>
-                    Portfolio
+                    Showing Off
                 </h1>
 
             <div>
