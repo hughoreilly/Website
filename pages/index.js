@@ -8,7 +8,7 @@ import Footer from '../components/footer'
 export default function About() {
   return (
       <>
-          <h1 className={"text-blue-400"}>
+          <h1 className={"text-hugh-blue"}>
               Hugh O'Reilly
           </h1>
 
