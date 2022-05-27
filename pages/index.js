@@ -17,7 +17,7 @@ export default function About() {
                   I'm a full stack web developer with a background in insurance.
               </p>
               <p className={"text-center"}>
-                  I currently work for <a className={"text-blue-400 ease-in duration-100 hover:text-blue-900"} target={"_blank"} rel={"noopener noreferrer"} href={"https://www.mosaichealth.io/"}>Mosaic Health</a>, a startup health fund offering an alternative to traditional employer health insurance.
+                  I currently work for <a className={"text-hugh-blue ease-in duration-100 hover:text-blue-900"} target={"_blank"} rel={"noopener noreferrer"} href={"https://www.mosaichealth.io/"}>Mosaic Health</a>, a startup health fund offering an alternative to traditional employer health insurance.
               </p>
           </div>
     </>

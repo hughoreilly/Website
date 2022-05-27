@@ -19,7 +19,7 @@ export default function Skills() {
 
             <div className={"mx-auto max-w-5xl mb-5"}>
 
-                <h1 className={"text-blue-400 "}>
+                <h1 className={"text-hugh-blue"}>
                     Skills
                 </h1>
 
@@ -28,7 +28,7 @@ export default function Skills() {
                 </h2>
 
                 <div id={"Front-end"} className={"mt-2"}>
-                    <div className={"flex group text-blue-400 mb-2 cursor-pointer ease-in duration-100 hover:bg-blue-100 rounded-md justify-between"} onClick={() => Dropdown("Front-end")}>
+                    <div className={"flex group text-hugh-blue mb-2 cursor-pointer ease-in duration-100 hover:bg-blue-100 rounded-md justify-between"} onClick={() => Dropdown("Front-end")}>
                         <p className={"px-4 select-none"}>Front End</p>
                         <p id={"Front-end-dropdown"} className={"px-2 select-none hidden group-hover:block"}>-</p>
                     </div>
@@ -208,7 +208,7 @@ export default function Skills() {
                 </div>
 
                 <div id={"Back-end"} className={"mt-2"}>
-                    <div className={"flex group text-blue-400 mb-2 cursor-pointer ease-in duration-100 hover:bg-blue-100 rounded-md justify-between"} onClick={() => Dropdown("Back-end")}>
+                    <div className={"flex group text-hugh-blue mb-2 cursor-pointer ease-in duration-100 hover:bg-blue-100 rounded-md justify-between"} onClick={() => Dropdown("Back-end")}>
                         <p className={"px-4 select-none"}>Back End</p>
                         <p id={"Back-end-dropdown"} className={"px-2 select-none hidden group-hover:block"}>-</p>
                     </div>
@@ -369,7 +369,7 @@ export default function Skills() {
                 </div>
 
                 <div id={"General"} className={"mt-2"}>
-                    <div className={"flex group text-blue-400 mb-2 cursor-pointer ease-in duration-100 hover:bg-blue-100 rounded-md justify-between"} onClick={() => Dropdown("General")}>
+                    <div className={"flex group text-hugh-blue mb-2 cursor-pointer ease-in duration-100 hover:bg-blue-100 rounded-md justify-between"} onClick={() => Dropdown("General")}>
                         <p className={"px-4 select-none"}>General</p>
                         <p id={"General-dropdown"} className={"px-2 select-none hidden group-hover:block"}>-</p>
                     </div>
@@ -432,7 +432,7 @@ export default function Skills() {
                 </h2>
 
                 <div id={"Agile-Development"} className={"mt-2"}>
-                    <div className={"flex group text-blue-400 mb-2 cursor-pointer ease-in duration-100 hover:bg-blue-100 rounded-md justify-between"} onClick={() => Dropdown("Business")}>
+                    <div className={"flex group text-hugh-blue mb-2 cursor-pointer ease-in duration-100 hover:bg-blue-100 rounded-md justify-between"} onClick={() => Dropdown("Business")}>
                         <p className={"px-4 select-none"}>Business</p>
                         <p id={"Business-dropdown"} className={"px-2 select-none hidden group-hover:block"}>-</p>
                     </div>
@@ -514,7 +514,7 @@ export default function Skills() {
                 </div>
 
                 <div id={"Teamwork"} className={"mt-2"}>
-                    <div className={"flex group text-blue-400 mb-2 cursor-pointer ease-in duration-100 hover:bg-blue-100 rounded-md justify-between"} onClick={() => Dropdown("Teamwork")}>
+                    <div className={"flex group text-hugh-blue mb-2 cursor-pointer ease-in duration-100 hover:bg-blue-100 rounded-md justify-between"} onClick={() => Dropdown("Teamwork")}>
                         <p className={"px-4 select-none"}>Teamwork</p>
                         <p id={"Teamwork-dropdown"} className={"px-2 select-none hidden group-hover:block"}>-</p>
                     </div>
