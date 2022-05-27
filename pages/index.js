@@ -9,7 +9,7 @@ export default function About() {
   return (
       <>
           <h1 className={"text-blue-400"}>
-              About Me
+              Hugh O'Reilly
           </h1>
 
           <div className={"mx-auto md:w-9/12 py-4"}>
