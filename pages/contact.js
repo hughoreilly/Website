@@ -6,12 +6,12 @@ import Footer from '../components/footer'
 export default function Contact() {
     return (
         <section>
-                <h1>
+                <h1 className={"text-hugh-blue"}>
                     Contact
                 </h1>
 
             <div>
-                <p>
+                <p className={"text-center"}>
                     Test sentence
                 </p>
             </div>

@@ -7,12 +7,12 @@ import Footer from '../components/footer'
 export default function Portfolio() {
     return (
         <section>
-                <h1>
+                <h1 className={"text-hugh-blue"}>
                     Showing Off
                 </h1>
 
             <div>
-                <p>
+                <p className={"text-center"}>
                     Test sentence
                 </p>
             </div>
