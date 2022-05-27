@@ -27,7 +27,7 @@ export default function Skills() {
                     Web Development
                 </h2>
 
-                <div id={"Front-end"} className={"mt-2"}>
+                <div id={"Front-end"} >
                     <div className={"flex group text-hugh-blue mb-2 cursor-pointer ease-in duration-100 hover:bg-blue-100 rounded-md justify-between"} onClick={() => Dropdown("Front-end")}>
                         <p className={"px-4 select-none"}>Front End</p>
                         <p id={"Front-end-dropdown"} className={"px-2 select-none hidden group-hover:block"}>-</p>
@@ -427,11 +427,11 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <h2 className={"text-center text-hugh-grey pt-4 font-bold"}>
+                <h2 className={"text-center text-hugh-grey pt-2 font-bold"}>
                     Soft Skills
                 </h2>
 
-                <div id={"Agile-Development"} className={"mt-2"}>
+                <div id={"Agile-Development"}>
                     <div className={"flex group text-hugh-blue mb-2 cursor-pointer ease-in duration-100 hover:bg-blue-100 rounded-md justify-between"} onClick={() => Dropdown("Business")}>
                         <p className={"px-4 select-none"}>Business</p>
                         <p id={"Business-dropdown"} className={"px-2 select-none hidden group-hover:block"}>-</p>
