@@ -9,7 +9,7 @@ export default function Footer() {
                         </svg>
                     </a>
 
-                <a title={"LinkedIn Link"} target={"_blank"} rel={"noopener noreferrer"} href={"https://github.com/hughoreilly"} className={"ease-in duration-100 hover:brightness-150"}>
+                <a title={"LinkedIn Link"} target={"_blank"} rel={"noopener noreferrer"} href={"https://www.linkedin.com/in/hugh-o-reilly-58b248177"} className={"ease-in duration-100 hover:brightness-150"}>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width={"40"}>
                         <g fill="none" fillRule="evenodd">
                             <path d="M36 72c19.882 0 36-16.118 36-36S55.882 0 36 0 0 16.118 0 36s16.118 36 36 36z" fill="#007EBB"/>
