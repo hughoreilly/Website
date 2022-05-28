@@ -2,7 +2,6 @@ import Layout from '../components/layout'
 import Navbar from '../components/navbar'
 import Main from "../components/Main";
 import Footer from '../components/footer'
-import {url} from "tailwindcss/lib/util/dataTypes";
 
 export default function Contact() {
 
@@ -21,7 +20,7 @@ export default function Contact() {
                 </iframe>
             </div>
 
-            <p className={"text-center"}>Or email me at <a className={"text-hugh-blue ease-in duration-100 hover:text-blue-900"} target={"_blank"} rel={"noopener noreferrer"} href={"mailto:hscoreilly@gmail.com"}>hscoreilly@gmail.com</a></p>
+            <p className={"text-center"}>Or email me at <a className={"text-hugh-blue ease-in duration-100 hover:text-blue-900"} target={"_blank"} rel={"noopener noreferrer"} href={"mailto:hscoreilly@gmail.com"}>hugh@hcoreilly.com</a></p>
 
         </section>
     )

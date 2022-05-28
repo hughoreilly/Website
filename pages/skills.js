@@ -255,7 +255,7 @@ export default function Skills() {
                                 </svg>
                                 <ul>
                                     <li className={"select-none"}>
-                                        PHP 3
+                                        PHP
                                     </li>
                                 </ul>
                             </div>
