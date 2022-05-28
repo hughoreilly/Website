@@ -12,7 +12,7 @@ export default function About() {
               Hugh O&apos;Reilly
           </h1>
 
-          <div className={"mx-auto md:w-9/12 py-4"}>
+          <div className={"mx-auto md:w-9/12 pb-4"}>
               <p className={"text-center pb-4"}>
                   I&apos;m a full stack web developer with a background in insurance.
               </p>

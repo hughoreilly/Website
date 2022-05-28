@@ -23,7 +23,7 @@ export default function Skills() {
                     Skills
                 </h1>
 
-                <h2 className={"text-center text-hugh-grey pt-4 font-bold"}>
+                <h2 className={"text-center text-hugh-greyfont-bold"}>
                     Web Development
                 </h2>
 
