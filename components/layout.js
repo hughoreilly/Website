@@ -5,7 +5,7 @@ export default function Layout({ children }) {
         <>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1.00"/>
-                <title>Hugh O'Reilly</title>
+                <title>Hugh O&apos;Reilly</title>
                 <link rel={"icon"} type="image/png" href="/WebsiteFavicon.png"/>
             </Head>
             <main className={""}>
