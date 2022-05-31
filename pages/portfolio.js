@@ -13,7 +13,7 @@ export default function Portfolio() {
 
             <div>
                 <p className={"text-center"}>
-                    Test sentence
+                    This page is in progress.
                 </p>
             </div>
         </section>

@@ -11,7 +11,7 @@ export default function Contact() {
                     Contact
                 </h1>
 
-            <p className={"text-center"}>If you want to get in touch, drop me a message on <a className={"text-hugh-blue ease-in duration-100 hover:text-blue-900"} href={"https://www.linkedin.com/in/hugh-o-reilly-58b248177"}>LinkedIn</a></p>
+            <p className={"text-center"}>If you want to get in touch, drop me a message on <a target={"_blank"} rel={"noopener noreferrer"} className={"text-hugh-blue ease-in duration-100 hover:text-blue-900"} href={"https://www.linkedin.com/in/hugh-o-reilly-58b248177"}>LinkedIn</a></p>
 
             <div className={"mt-4 w-full mx-auto flex text-hugh-grey w-full"}>
 
